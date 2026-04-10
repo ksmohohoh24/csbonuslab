@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/esm/Button';
+import Card from 'react-bootstrap/esm/Card';
+import CardGroup from 'react-bootstrap/esm/CardGroup';
+import Modal from 'react-bootstrap/esm/Modal';
 
 function Cards() {
   const [show, setShow] = useState(false);
